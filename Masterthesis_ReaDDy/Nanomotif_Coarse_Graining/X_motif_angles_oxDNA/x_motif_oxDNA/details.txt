@@ -1,0 +1,1 @@
+OxDNA file for simulation of 1 X-motif at 40°C and 0.7M salt with tracking of hairpins in arms.

@@ -1,0 +1,2 @@
+OxDNA file for simulation of 2 fused X-motif at 40°C and 0.7M salt.
+Motifs were first pulled together with mutual trap potential to hybridize arms (2_x_motifs_before_bond.dat/.top), the last_config.dat file is then used to simulate two fused motifs without potential. To track if the arms remain hybridized, base pairs are tracked in the fused arms.

@@ -1,0 +1,98 @@
+#### PROGRAM PARAMETERS ####
+
+backend = CUDA
+backend_precision = mixed
+use_edge = 1
+edge_n_forces = 1
+
+#backend=CPU
+#### MD PARAMETERS ####
+
+sim_type = MD
+CUDA_list = verlet
+verlet_skin = 0.2
+max_density_multiplier = 10
+max_io=10000
+cells_auto_optimisation = false
+CUDA_sort_every = 0
+newtonian_steps = 103
+diff_coeff = 2.50
+thermostat = john
+dt = 0.003
+
+
+
+#### VMMC PARAMETERS ####
+#sim_type = VMMC
+#ensemble = NVT
+#delta_translation = 0.10
+#delta_rotation = 0.25
+#verlet_skin = 1.0
+#small_system = 1
+#maxclust = 30
+
+##### MODEL PARAMETERS #####
+
+interaction_type = DNA2
+use_average_seq = no
+seq_dep_file_DNA = oxDNA2_sequence_dependent_parameters.txt
+salt_concentration = 0.7
+T = 40C
+
+#### INPUT / OUTPUT ####
+#equilibration_steps = 1e5
+steps = 5e7
+topology = 2_x_motifs_before_bond.top
+conf_file = last_conf.dat
+#fix_diffusion =false
+#external_forces = true
+#external_forces_file = mutual_trap
+trajectory_file = trajectory_2m_2.dat
+refresh_vel = 1
+time_scale = linear
+restart_step_counter = 1
+energy_file = energy_2m_2.dat
+print_conf_interval = 1000
+print_energy_every = 1000
+
+data_output_1 = {
+	name = pot_energy_2m_2.dat
+	print_every = 1000
+	col_1 = {
+		type = step
+		units = steps
+	}
+	col_2 = {
+		type = potential_energy
+	}
+}
+
+data_output_2 = {
+	name = positions_2m_2.dat
+	print_every = 1000
+	col_1 = {
+		type = step
+		units = steps
+	}
+	col_2 = {
+		type = particle_position
+		particle_id=all
+		absolute=true
+	}
+}
+
+data_output_3 = {
+	name = HBs_fused_arm_2m_2.dat
+	print_every = 1000
+	col_1 = {
+		type = step
+		units = steps
+	}
+	col_2 = {
+		type = hb_list
+		order_parameters_file = op_2_arms.txt
+		only_count = true
+	}
+}
+
+

@@ -1,0 +1,7 @@
+{
+	order_parameter = bond
+	name = all_native_bonds_obs
+	pair1 = 137, 130
+	pair2 = 136, 131
+	pair3 = 135, 132
+}

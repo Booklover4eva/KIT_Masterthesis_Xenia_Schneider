@@ -1,0 +1,58 @@
+{
+type = mutual_trap
+particle = 275
+ref_particle = 38
+stiff = 1.
+r0 = 1.2
+}
+
+{
+type = mutual_trap
+particle = 38
+ref_particle = 275
+stiff = 1.
+r0 = 1.2
+}
+
+
+
+
+
+
+
+{
+type = mutual_trap
+particle = 272
+ref_particle = 41
+stiff = 1.
+r0 = 1.2
+}
+
+{
+type = mutual_trap
+particle = 41
+ref_particle = 272
+stiff = 1.
+r0 = 1.2
+}
+
+
+
+
+
+
+{
+type = mutual_trap
+particle = 268
+ref_particle = 45
+stiff = 1.
+r0 = 1.2
+}
+
+{
+type = mutual_trap
+particle = 45
+ref_particle = 268
+stiff = 1.
+r0 = 1.2
+}

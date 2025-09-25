@@ -1,0 +1,12 @@
+{
+	order_parameter = bond
+	name = all_native_bonds_obs
+	pair1 = 231, 166
+	pair2 = 230, 167
+	pair3 = 229, 168
+	pair4 = 228, 169
+	pair5 = 227, 170
+	pair6 = 226, 171
+	pair7 = 225, 172
+	pair8 = 224, 173
+}
