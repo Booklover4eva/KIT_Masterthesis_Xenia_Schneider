@@ -11,7 +11,7 @@
 ## **📘 Abstract**
 
 
-> *[Insert abstract text here: 150–250 words summarizing motivation, methods, key results, and implications].*
+> **
 
 ---
 
@@ -65,7 +65,7 @@ Please contact:
 ## **📄 Thesis Document**
 
 The full PDF of the thesis  is available under:
-`/Thesis_Final_Document/` 
+
 
 ---
 
