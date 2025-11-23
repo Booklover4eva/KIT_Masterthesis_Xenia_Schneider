@@ -11,7 +11,15 @@
 ## **📘 Abstract**
 
 
-> **
+> *Liquid–liquid phase separation (LLPS) in biological systems arises from multivalent molecular interactions that are challenging to isolate experimentally. DNA nanomotifs offer a platform for constructing synthetic condensates, making them ideal for investigating the physical principles underlying LLPS. The self-assembly behavior of nanomotifs is strongly influenced by structural flexibility, binding kinetics, and environmental conditions, creating an opportunity for the use of computational models that capture these interdependent effects.
+
+A central challenge lies in the high computational cost of nucleotide-level simulations, which limits their applicability to multi-motif systems. 
+
+To address this challenge, a hierarchical modeling framework is introduced in which configurational statistics extracted from oxDNA trajectories are mapped onto a coarse-grained bead–spring representation, enabling efficient simulation of nanomotif network formation.
+
+Each bead approximates one helical turn of the DNA double helix, substantially reducing computational demands while retaining essential structural features. Model fidelity was further enhanced through Bayesian Optimization, which refined nanomotif angle potentials to improve the reproduction of physically grounded behavior. The resulting model successfully captures key characteristics of LLPS, including the formation of interconnected networks across a range of binding kinetics and motif concentrations, as well as the emergence of distinct phase-transition regimes. 
+
+This framework establishes a foundation for mimicking and controlling biomolecular phase separation and opens pathways toward future applications in synthetic biology and programmable materials.*
 
 ---
 
@@ -59,13 +67,6 @@ These datasets are **available upon request**.
 Please contact:
 
 📧 *x.schneider96@gmail.com*
-
----
-
-## **📄 Thesis Document**
-
-The full PDF of the thesis  is available under:
-
 
 ---
 
